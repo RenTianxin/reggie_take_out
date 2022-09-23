@@ -12,6 +12,11 @@ spring:
       username: root
       password: root
 
+  redis:
+    host: 192.168.223.131
+    port: 6379
+    database: 0
+
 mybatis-plus:
   configuration:
 
@@ -30,3 +35,4 @@ mybatis:
 
 reggie:
   path: D:\code\resouce\
+
